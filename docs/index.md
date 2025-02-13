@@ -11,6 +11,9 @@ hide:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>staff</title>
     <style>
+        .md-content__inner > h1 {
+            display: none;
+        }
         body {
             background-image: url('/assets/background.png');
             background-repeat: no-repeat;
