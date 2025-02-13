@@ -16,7 +16,7 @@ hide:
 <body>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('/static/data/profile-inst.json')
+            fetch('../static/data/profile-inst.json')
                .then(response => response.json())
                .then(data => {
                     const targetElement = document.getElementById('instructors');
@@ -45,7 +45,7 @@ hide:
                     });
                 })
                .catch(error => console.error('加载教师 JSON 文件失败:', error));
-            fetch('/static/data/profile-ta.json')
+            fetch('../static/data/profile-ta.json')
                .then(response => response.json())
                .then(data => {
                     const targetElement = document.getElementById('tas');

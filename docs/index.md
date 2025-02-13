@@ -15,7 +15,7 @@ hide:
             display: none;
         }
         body {
-            background-image: url('/assets/background.png');
+            background-image: url('./assets/background.png');
             background-repeat: no-repeat;
             background-position: 5% 30%;
             background-size: cover;

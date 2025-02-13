@@ -106,7 +106,7 @@ hide:
   <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      fetch('/static/data/events.json')
+      fetch('../static/data/events.json')
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok');
