@@ -1,0 +1,65 @@
+# Project information
+site_name: Introduction to Computer Systems Fall 2025
+site_url: https://xjtu-ics.github.io/ics-webpage/
+site_author: XJTU-ICS TEAM
+site_description: >-
+  XJTU-ICS Webpage
+# Repository
+repo_name: xjtu-ics/ics-webpage
+repo_url: https://github.com/xjtu-ics/ics-webpage
+# Copyright
+copyright: Copyright &copy; 2025 XJTU ICS-TEAM
+# Configuration
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - content.code.copy
+    - content.code.select
+  palette:
+    primary: black
+  logo: assets/ics-hori.jpg
+  favicon: assets/ics-ver.jpg
+# Plugins
+plugins:
+  - search
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - admonition
+extra:
+  version:
+    provider: mike
+    alias: true
+# Page tree
+nav:
+  - Overview: index.md
+  - Calendar: calendar/index.md
+  - Labs:
+    - Tutorial and Environmental Preparation: labs/lab0.md
+    - Data Lab: labs/lab1.md
+    - Bomb Lab: labs/lab2.md
+    - Attack Lab: labs/lab3.md
+    - Cache Lab: labs/lab4.md
+    - Optimization Lab: labs/lab5.md
+    - Linker Lab: labs/lab6.md
+  - Staff: staff/index.md
+  - Policies: policies/index.md
+  - Resources: resources/index.md
