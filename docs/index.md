@@ -90,7 +90,7 @@ hide:
 <body>
     <div class="frosted-glass">
         <div>XJTU COMP400727</div>
-        <div>FALL 2025</div>
+        <div>SPRING 2025</div>
         <div>Introduction to Computer Systems</div>
     </div>
 </body>
