@@ -1,0 +1,4 @@
+.md-header__button.md-logo img {
+    width: 55px; /* 设置 logo 的宽度 */
+    height: auto; /* 保持 logo 的宽高比例 */
+}

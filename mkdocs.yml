@@ -25,8 +25,8 @@ theme:
     - content.code.select
   palette:
     primary: black
-  logo: assets/ics-hori.jpg
-  favicon: assets/ics-ver.jpg
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   custom_dir: overrides
 # Plugins
 plugins:
@@ -49,6 +49,8 @@ extra:
   version:
     provider: mike
     alias: true
+extra_css:
+  - stylesheets/custom.css
 # Page tree
 nav:
   - Overview: index.md
