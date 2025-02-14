@@ -2,7 +2,6 @@
 body {
     font-family: 'Roboto', sans-serif; /* 使用 Material Design 推荐的字体 */
     margin: 0;
-    padding: 20px;
     background-color: var(--md-default-bg-color, #f8f8f8); /* 使用主题背景色 */
     color: var(--md-default-fg-color, #333); /* 使用主题文字颜色 */
 }
