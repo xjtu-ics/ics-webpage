@@ -1,10 +1,10 @@
 .PHONY: a-events g-events profile-inst profile-ta
 
 profile-ta:
-	python3 scripts/make-profile.py data/profile-ta docs/assets/profile-ta docs/static/data/profile_ta.json
+	python3 scripts/make-profile.py data/profile-ta docs/assets/profile-ta docs/static/data/profile-ta.json
 
 profile-inst:
-	python3 scripts/make-profile.py data/profile-inst docs/assets/profile-inst docs/static/data/profile_inst.json
+	python3 scripts/make-profile.py data/profile-inst docs/assets/profile-inst docs/static/data/profile-inst.json
 
 g-events:
 	python3 scripts/make-events.py --mode g \
