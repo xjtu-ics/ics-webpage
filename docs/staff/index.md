@@ -26,13 +26,13 @@ hide:
                                 ? `<a href="${item.homepage_url}">${item.name}</a>`
                                 : `<span>${item.name}</span>`;
                             const email = item.email
-                                ? `<p class="profile-email">${item.email}</p>`
+                                ? `<div class="profile-email">${item.email}</div>`
                                 : ``
                             const office = item.office
-                                ? `<p class="profile-office">${item.office}</p>`
+                                ? `<div class="profile-office">${item.office}</div>`
                                 : ``
                             const intro = item.intro
-                                ? `<p class="profile-intro">${item.intro}</p>`
+                                ? `<div class="profile-intro">${item.intro}</div>`
                                 : ``
                             const template = `
                                 <div class="profile-card">
@@ -42,7 +42,7 @@ hide:
                                         class="profile-image"
                                     >
                                     <div class="profile-info">
-                                        <p class="profile-name">${nameHtml}</p>
+                                        <div class="profile-name">${nameHtml}</div>
                                         ${email}
                                         ${office}
                                         ${intro}
@@ -72,5 +72,4 @@ hide:
 ## **TAs**
 
 <div id="profile-ta">
-
 </div>
