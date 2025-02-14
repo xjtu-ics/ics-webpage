@@ -1,0 +1,65 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif; /* 使用 Material Design 推荐的字体 */
+    margin: 0;
+    padding: 20px;
+    background-color: var(--md-default-bg-color, #f8f8f8); /* 使用主题背景色 */
+    color: var(--md-default-fg-color, #333); /* 使用主题文字颜色 */
+}
+
+#instructors, #tas {
+    margin-bottom: 40px;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0); /* 使用主题边框颜色 */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: var(--md-default-bg-color, #fff); /* 使用主题背景色 */
+}
+
+.profile-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%; /* 保持圆形 */
+    object-fit: cover; /* 确保图片填充整个区域 */
+    margin-right: 20px;
+    border: 2px solid var(--md-default-fg-color--lightest, #f0f0f0); /* 使用主题边框颜色 */
+    display: block; /* 避免行内元素的默认行为 */
+    vertical-align: middle; /* 避免行内元素的默认对齐问题 */
+    box-sizing: border-box; /* 确保边框不会影响布局 */
+    will-change: transform; /* 提示浏览器优化性能 */
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--md-primary-fg-color, #333); /* 使用主题主颜色 */
+    margin: 0 0 1px;
+}
+
+.profile-email, .profile-office, .profile-intro {
+    font-size: 16px;
+    color: var(--md-default-fg-color--light, #666); /* 使用主题浅色文字颜色 */
+    margin: 0 0 1px;
+}
+
+.loading, .error {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.error {
+    color: var(--md-accent-fg-color, red); /* 使用主题强调色 */
+}
