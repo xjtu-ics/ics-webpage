@@ -55,9 +55,8 @@ hide:
                     .catch(error => console.error(`加载 ${targetElementId} JSON 文件失败:`, error));
             };
 
-            // 加载教师和助教数据
-            loadProfiles('../static/data/profile-inst.json', 'instructors');
-            loadProfiles('../static/data/profile-ta.json', 'tas');
+            loadProfiles('../static/data/profile-inst.json', 'profile-inst');
+            loadProfiles('../static/data/profile-ta.json', 'profile-ta');
         });
     </script>
 </body>
@@ -67,4 +66,11 @@ hide:
 
 ## **Instructors**
 
+<div id="profile-inst">
+</div>
+
 ## **TAs**
+
+<div id="profile-ta">
+
+</div>
