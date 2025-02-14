@@ -3,54 +3,58 @@ import zipfile
 import json
 import argparse
 import shutil
+import locale
 
 default_pic_url = 'docs/assets/default.png'
 pic_path_map = {}
 
-def unzip_files(source_folder, pic_extract_folder):
+def unzip_files(source_folder):
     """
-    解压缩指定文件夹下的所有 ZIP 文件，提取图片到指定目录，并返回解压缩后的文件夹列表
+    解压缩指定文件夹下的所有 ZIP 文件，并将文件名改为与 ZIP 文件同名（不包含扩展名）。
     :param source_folder: 包含 ZIP 文件的文件夹路径
-    :param pic_extract_folder: 图片提取的目标目录
+    :param extract_folder: 提取的目标目录
     :return: 解压缩后的文件夹列表
     """
-    unzipped_folders = []
+
+    # 确保目标目录存在
+    if not os.path.exists(source_folder):
+        os.makedirs(source_folder)
+
+    # 遍历 source_folder 下的所有文件和子文件夹
     for root, dirs, files in os.walk(source_folder):
         for file in files:
             if file.endswith('.zip'):
                 zip_file_path = os.path.join(root, file)
+                zip_file_name = os.path.splitext(os.path.basename(zip_file_path))[0]  # 获取 ZIP 文件名（不包含扩展名）
+
                 with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-                    # 创建与 ZIP 文件同名的文件夹用于解压缩
-                    extract_folder = os.path.splitext(zip_file_path)[0]
-                    zip_ref.extractall(extract_folder)
-                    unzipped_folders.append(extract_folder)
-                    # 获取 ZIP 文件的名称（不包含扩展名）
-                    zip_file_name = os.path.splitext(os.path.basename(zip_file_path))[0]
-                    # 提取图片到指定目录并改名
+                    # 解压到指定目录
+                    zip_ref.extractall(source_folder)
+
+                    # 遍历解压后的文件
                     for zip_info in zip_ref.infolist():
-                        if zip_info.filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
-                            # 获取图片的扩展名
-                            ext = os.path.splitext(zip_info.filename)[1]
-                            # 构造新的图片文件名
-                            new_pic_name = f"{zip_file_name}{ext}"
-                            new_pic_path = os.path.join(pic_extract_folder, new_pic_name)
-                            new_pic_path_withour_ext = os.path.splitext(new_pic_path)[0]
-                            pic_path_map[new_pic_path_withour_ext] = new_pic_path
-                            with zip_ref.open(zip_info) as source, open(new_pic_path, 'wb') as target:
-                                target.write(source.read())
-                     # 提取 JSON 文件到指定目录并改名
-                    for zip_info in zip_ref.infolist():
-                        if zip_info.filename.lower().endswith('.json'):
-                            # 构造新的 JSON 文件名
-                            new_json_name = f"{zip_file_name}.json"
-                            new_json_path = os.path.join(extract_folder, new_json_name)
-                            with zip_ref.open(zip_info) as source, open(new_json_path, 'w', encoding='utf-8') as target:
-                                target.write(source.read().decode('utf-8'))
-                            # 删除原 JSON 文件
-                            original_json_path = os.path.join(extract_folder, zip_info.filename)
-                            if os.path.exists(original_json_path):
-                                os.remove(original_json_path)
-    return unzipped_folders
+                        original_file_name = zip_info.filename
+                        original_file_ext = os.path.splitext(original_file_name)[1]
+                        new_file_name = f"{zip_file_name}{original_file_ext}"  # 新文件名与 ZIP 文件同名
+                        new_file_path = os.path.join(source_folder, new_file_name)
+
+                        # 重命名文件
+                        original_file_path = os.path.join(source_folder, original_file_name)
+                        os.rename(original_file_path, new_file_path)
+                        
+def mv_picture(source_folder):
+    supported_extensions = {'.jpg', '.jpeg', '.png', '.gif'}
+
+    # 遍历文件夹及其子文件夹
+    for root, dirs, files in os.walk(source_folder):
+        for file in files:
+            # 检查文件扩展名是否为支持的图片格式
+            if os.path.splitext(file)[1].lower() in supported_extensions:
+                old_pic_path = os.path.join(root, file)
+                new_pic_path = os.path.join(pic_extract_folder, file)
+                new_pic_path_withour_ext = os.path.splitext(new_pic_path)[0]
+                pic_path_map[new_pic_path_withour_ext] = new_pic_path
+                shutil.copy2(old_pic_path, new_pic_path)
 
 
 def read_and_merge_json(source_folder, pic_extract_folder, target_json_path):
@@ -74,7 +78,7 @@ def read_and_merge_json(source_folder, pic_extract_folder, target_json_path):
                         pic_url = pic_path_map.get(pic_url, default_pic_url)
                         parts = pic_url.split('/')
                         pic_value = '/'.join(parts[1:])
-                        json_data['pic_url'] = f'/{pic_value}'
+                        json_data['pic_url'] = f'../{pic_value}'
                         all_json_data.append(json_data)
                         print(f"merge {pic_name}")
                 except json.JSONDecodeError:
@@ -84,23 +88,34 @@ def read_and_merge_json(source_folder, pic_extract_folder, target_json_path):
 
     if all_json_data:
         try:
+            locale.setlocale(locale.LC_COLLATE, 'zh_CN.UTF-8')
+            sorted_json_data = sorted(all_json_data, key=lambda x: locale.strxfrm(x.get('name', '')))
             with open(target_json_path, 'w', encoding='utf-8') as target_file:
-                json.dump(all_json_data, target_file, ensure_ascii=False, indent=4)
+                json.dump(sorted_json_data, target_file, ensure_ascii=False, indent=4)
         except Exception:
             pass
 
 
-def delete_unzipped_folders(folders):
+def delete_zip_files(folder_path):
     """
-    删除指定的解压缩文件夹
-    :param folders: 解压缩文件夹的列表
+    删除指定文件夹下的所有 .zip 文件
+    :param folder_path: 要清理的文件夹路径
     """
-    for folder in folders:
-        if os.path.exists(folder):
+    # 确保路径存在
+    if not os.path.exists(folder_path):
+        print(f"路径不存在：{folder_path}")
+        return
+
+    # 遍历文件夹中的所有文件
+    for filename in os.listdir(folder_path):
+        # 检查文件扩展名是否为 .zip
+        if filename.endswith(".zip"):
+            file_path = os.path.join(folder_path, filename)
             try:
-                shutil.rmtree(folder)
-            except Exception:
-                pass
+                os.remove(file_path)  # 删除文件
+                print(f"已删除文件：{file_path}")
+            except Exception as e:
+                print(f"删除文件时出错：{file_path}，错误信息：{e}")
 
 
 if __name__ == "__main__":
@@ -119,8 +134,9 @@ if __name__ == "__main__":
         os.makedirs(pic_extract_folder)
 
     # 解压缩 ZIP 文件并记录解压缩后的文件夹
-    unzipped_folders = unzip_files(source_folder, pic_extract_folder)
+    unzip_files(source_folder)
+    mv_picture(source_folder)
     # 读取并合并 JSON 文件，添加 pic_url 字段
     read_and_merge_json(source_folder, pic_extract_folder, target_json)
     # 删除解压缩产生的文件夹
-    delete_unzipped_folders(unzipped_folders)
+    delete_zip_files(source_folder)
