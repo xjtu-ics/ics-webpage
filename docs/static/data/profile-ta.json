@@ -1,0 +1,66 @@
+[
+    {
+        "homepage_url": "",
+        "name": "杜金诺",
+        "email": "djn18866691791@stu.xjtu.edu.cn",
+        "office": "",
+        "intro": "这个人很懒，没有留下任何信息",
+        "pic_url": "../assets/profile-ta/jndu.jpg"
+    },
+    {
+        "homepage_url": "",
+        "name": "付晋宇",
+        "email": "2201412072@stu.xjtu.edu.cn",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/default.png"
+    },
+    {
+        "homepage_url": "https://geek.bxhu2004.com",
+        "name": "胡博瑄",
+        "email": "3157726199@stu.xjtu.edu.cn",
+        "office": "",
+        "intro": "练习时长两年半的Coding实习生",
+        "pic_url": "../assets/profile-ta/bxhu.jpg"
+    },
+    {
+        "homepage_url": "https://github.com/rouge3877",
+        "name": "李雨轩",
+        "email": "rouge_3877@outlook.com",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/profile-ta/yxli.jpg"
+    },
+    {
+        "homepage_url": "",
+        "name": "李云广",
+        "email": "yunguangli1@outlook.com",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/profile-ta/ygli.jpg"
+    },
+    {
+        "homepage_url": "",
+        "name": "刘承臻",
+        "email": "liuchengzhen@stu.xjtu.edu.cn",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/profile-ta/czliu.jpg"
+    },
+    {
+        "homepage_url": "",
+        "name": "栾家骏",
+        "email": "Luan_233@stu.xjtu.edu.cn",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/default.png"
+    },
+    {
+        "homepage_url": "",
+        "name": "夏泽",
+        "email": "xiaze2017@stu.xjtu.edu.cn",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/default.png"
+    }
+]
