@@ -2,7 +2,9 @@
 
 This is the homepage of the ICS course at Xi'an Jiaotong University, which is available for members of the ICS team at Xi'an Jiaotong University to edit.
 
-# USAGE
+If you have a better design idea for the course homepage of Xi'an Jiaotong University, feel free to contact the XJTU ICS team  and submit your pull request.
+
+# USAGE for TEAM MEMBER
 
 ## ADD PROFILE
 
