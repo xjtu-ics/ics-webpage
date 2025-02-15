@@ -13,7 +13,7 @@ hide:
 </head>
 <body>
     <div class="frosted-glass">
-        <div>XJTU COMP400727</div>
+        <div>XJTU COMP402127</div>
         <div>SPRING 2025</div>
         <div>Introduction to Computer Systems</div>
     </div>
