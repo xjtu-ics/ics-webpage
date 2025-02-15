@@ -34,7 +34,7 @@ body {
     width: 900px; /* 使用百分比宽度，适应不同屏幕 */
     max-width: 900px; /* 设置最大宽度，避免在大屏幕上过于宽大 */
     height: 40%; /* 高度自适应内容 */
-    min-height: 400px; /* 设置最小高度 */
+
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -96,17 +96,17 @@ body {
 @media (max-width: 950px) {
     .frosted-glass {
         width: 90%; /* 在小屏幕上使用更宽的宽度 */
-        height: 30%; /* 高度自适应内容 */
+        height: auto; /* 高度自适应内容 */
         padding: 15px; /* 减小内边距 */
     }
 
     .frosted-glass div:first-child,
     .frosted-glass div:nth-child(2) {
-        font-size: 50px; /* 减小字体大小 */
+        font-size: 7vw; /* 减小字体大小 */
         font-weight: bold;
     }
 
     .frosted-glass div:nth-child(3) {
-        font-size: 40px; /* 减小字体大小 */
+        font-size: 5vw; /* 减小字体大小 */
     }
 }

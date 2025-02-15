@@ -86,3 +86,28 @@
     margin: 2px 0;
     opacity: 0.3;
   }
+
+/* 小屏幕设备（如手机） */
+@media (max-width: 800px) {
+  .event-content {
+      width: 100%; /* 宽度占满整个屏幕 */
+      padding: 0.5px; /* 增加内边距 */
+      margin-bottom: 15px; /* 增加间距 */
+  }
+
+  .event-content h3 {
+      font-size: 1em; /* 增大标题字体 */
+  }
+
+  .event-content p {
+      font-size: 1em; /* 增大段落字体 */
+  }
+}
+
+
+/* 大屏幕设备（如桌面） */
+@media (min-width: 800px) {
+  .event-content {
+      width: 240px; /* 默认宽度 */
+  }
+}

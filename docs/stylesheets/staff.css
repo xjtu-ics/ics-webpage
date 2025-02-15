@@ -32,6 +32,7 @@
 @media (max-width: 950px) {
     .profile-card {
         width: 100%; /* 设置宽度为原来的一半 */
+        height: auto;
     }
 }
 .profile-image {
@@ -49,6 +50,7 @@
 
 .profile-info {
     flex: 1;
+    overflow: hidden;
 }
 
 .profile-name {
