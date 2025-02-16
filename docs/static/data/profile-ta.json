@@ -1,6 +1,14 @@
 [
     {
         "homepage_url": "",
+        "name": "党一涵",
+        "email": "",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/default.png"
+    },
+    {
+        "homepage_url": "",
         "name": "杜金诺",
         "email": "djn18866691791@stu.xjtu.edu.cn",
         "office": "",
@@ -49,8 +57,24 @@
     },
     {
         "homepage_url": "",
+        "name": "刘一可",
+        "email": "",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/default.png"
+    },
+    {
+        "homepage_url": "",
         "name": "栾家骏",
         "email": "Luan_233@stu.xjtu.edu.cn",
+        "office": "",
+        "intro": "",
+        "pic_url": "../assets/default.png"
+    },
+    {
+        "homepage_url": "",
+        "name": "唐堂",
+        "email": "",
         "office": "",
         "intro": "",
         "pic_url": "../assets/default.png"
