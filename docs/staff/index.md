@@ -34,6 +34,9 @@ hide:
                             const intro = item.intro
                                 ? `<div class="profile-intro">${item.intro}</div>`
                                 : ``
+                            const office_hour = 'office_hour' in item
+                                ? `<div class="profile-office">Office Hour: ${item.office_hour}</div>`
+                                : ``
                             const template = `
                                 <div class="profile-card">
                                     <img 
@@ -45,6 +48,7 @@ hide:
                                         <div class="profile-name">${nameHtml}</div>
                                         ${email}
                                         ${office}
+                                        ${office_hour}
                                         ${intro}
                                     </div>
                                 </div>

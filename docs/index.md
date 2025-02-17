@@ -56,7 +56,7 @@ Enjoy!
 
 ## Schedule
 
-<!-- {{ read_csv('data/schedule.csv') }} -->
+
 
 |  Week |     Date    | Lecture | Instructors | Reading | Labs |
 | :---: | :---------: | :-----: | :---------: | :-----: | :--: |
