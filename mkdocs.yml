@@ -1,12 +1,12 @@
 # Project information
 site_name: Introduction to Computer Systems Spring 2025
-site_url: https://xjtu-ics.github.io/ics-webpage/
+site_url: https://xjtu-ics.github.io/
 site_author: XJTU-ICS TEAM
 site_description: >-
   XJTU-ICS Webpage
 # Repository
-repo_name: xjtu-ics/ics-webpage
-repo_url: https://github.com/xjtu-ics/ics-webpage
+repo_name: xjtu-ics/xjtu-ics.github.io
+repo_url: https://github.com/xjtu-ics/xjtu-ics.github.io
 # Copyright
 copyright: Copyright &copy; 2025 XJTU ICS-TEAM
 # Configuration
