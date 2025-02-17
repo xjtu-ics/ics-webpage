@@ -33,7 +33,7 @@
 配置服务器远程连接
 安装好之后我们点击SSH上的”+“号，按下后会跳出一个框框提示我们输入ssh相关的命令，我们按照之前Linux服务器配置中的ssh命令填入，这里以3122151046-ics为例：
 
-ssh 3122151046-ics@igw.dfshan.net -p2291
+ssh 3122151046-ics@x86.ics.xjtu-ants.net -p2291
 <figure markdown="span">
   ![Image title](../assets/images/vscode-ssh-4.png){ width=auto }
 </figure>

@@ -17,7 +17,7 @@
 ## 登录方式
 使用 ssh 登录，登录所需信息如下：
 
-- 地址：igw.dfshan.net
+- 地址：x86.ics.xjtu-ants.net
 - 端口号：2291
 
 
@@ -25,7 +25,7 @@
 
     可以使用Windows自带的Powershell，使用如下命令登录：
     ```
-    ssh username@igw.dfshan.net -p2291
+    ssh username@x86.ics.xjtu-ants.net -p2291
     ```
     参考连接： Powershell连接ssh
 
@@ -45,7 +45,7 @@
     打开系统自带的 Terminal 或者下载 iTerm 软件，使用如下命令登录
 
     ```
-    ssh username@igw.dfshan.net -p2291
+    ssh username@x86.ics.xjtu-ants.net -p2291
     ```
     其中，username 为各自的账户名。
 
@@ -54,7 +54,7 @@
     打开终端软件，使用如下命令登录
 
     ```
-    ssh username@igw.dfshan.net -p2291
+    ssh username@x86.ics.xjtu-ants.net -p2291
     ```
     其中，username 为各自的账户名。
 
