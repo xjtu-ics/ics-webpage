@@ -30,7 +30,7 @@ yourname
 └── avatar.png (File formats such as JPG, PNG, and JPEG are available.)
 ```
 
-Submit your ZIP file to `data/profile-ta`. GitHub Actions will automatically parse it and update it on the website.
+Submit your ZIP file to `data/profile-ta`, and run `make profile-ta`.
 
 ## GENERATE EVENTS
 
