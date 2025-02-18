@@ -98,4 +98,6 @@ nav:
     - ICS-Server: resources/ICS-Server.md
     - VSCode Remote-SSH Setting: resources/VScodeRemote-SSH.md
     - Linux Installation: resources/LinuxInstallation.md
+  - Textbook: https://xjtu-ics.github.io/textbook/
+  - Piazza: https://piazza.com/stu.xjtu.edu.cn/spring2025/xjtuics
   - FAQ: FAQ/index.md
