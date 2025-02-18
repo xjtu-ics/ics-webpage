@@ -6,7 +6,7 @@
         "extendedProps": {
             "teacher": "Danfeng Shan",
             "theme": "Overview",
-            "pptLink": "",
+            "pptLink": "../assets/slides/01-overview-class-rules.pdf",
             "location": "主B-204"
         }
     },
@@ -16,7 +16,7 @@
         "end": "2025-02-20T21:00:00",
         "extendedProps": {
             "teacher": "Danfeng Shan",
-            "theme": "Representing and Manipulating Information",
+            "theme": "Bits, Bytes, & Integers",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -27,7 +27,7 @@
         "end": "2025-02-25T21:00:00",
         "extendedProps": {
             "teacher": "Danfeng Shan",
-            "theme": "Machine-Level Representation of Programs: Basic",
+            "theme": "Machine Prog: Basics",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -38,7 +38,7 @@
         "end": "2025-02-27T21:00:00",
         "extendedProps": {
             "teacher": "Danfeng Shan",
-            "theme": "Machine-Level Representation of Programs: Control",
+            "theme": "Machine Prog: Control",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -49,7 +49,7 @@
         "end": "2025-03-04T21:00:00",
         "extendedProps": {
             "teacher": "Danfeng Shan",
-            "theme": "Machine-Level Representation of Programs: Procedures",
+            "theme": "Machine Prog: Procedures",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -60,7 +60,7 @@
         "end": "2025-03-06T21:00:00",
         "extendedProps": {
             "teacher": "Danfeng Shan",
-            "theme": "Machine-Level Representation of Programs: Procedures",
+            "theme": "Machine Prog: Procedures",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -71,7 +71,7 @@
         "end": "2025-03-11T21:00:00",
         "extendedProps": {
             "teacher": "Danfeng Shan",
-            "theme": "Machine-Level Representation of Programs: Data",
+            "theme": "Machine Prog: Data",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -82,7 +82,7 @@
         "end": "2025-03-13T21:00:00",
         "extendedProps": {
             "teacher": "Danfeng Shan",
-            "theme": "Machine-Level Representation of Programs: Advanced",
+            "theme": "Machine Prog: Advanced",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -93,7 +93,7 @@
         "end": "2025-03-18T21:00:00",
         "extendedProps": {
             "teacher": "Danfeng Shan",
-            "theme": "Machine-Level Representation of Programs: Advanced",
+            "theme": "Machine Prog: Advanced",
             "pptLink": "",
             "location": "主B-204"
         }

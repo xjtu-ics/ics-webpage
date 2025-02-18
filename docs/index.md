@@ -57,12 +57,11 @@ Enjoy!
 ## Schedule
 
 
-
 |  Week |     Date    | Lecture | Instructors | Reading | Labs |
 | :---: | :---------: | :-----: | :---------: | :-----: | :--: |
-|   1   | 2025-02-18  | Overview                                  | Hao Li && Danfeng Shan  |   1     |             |
+|   1   | 2025-02-18  | Overview ( [:material-presentation-play: Slides](assets/slides/01-overview-class-rules.pdf){.md-button} ) | Hao Li && Danfeng Shan  |   1     |             |
 |   1   | 2025-02-20  | Representing and Manipulating Information | Danfeng Shan | 2.1-2.3 | datalab out |
-|   2   | 2025-02-25  | Machine-Level Representation of Programs: Basic | Danfeng Shan | 3.1-3.5 | |
+|   2   | 2025-02-25  | Machine-Level Representation of Programs: Basics | Danfeng Shan | 3.1-3.5 | |
 |   2   | 2025-02-27  | Machine-Level Representation of Programs: Control | Danfeng Shan | 3.6 | |
 |   3   | 2025-03-04  | Machine-Level Representation of Programs: Procedures | Danfeng Shan | 3.7 | |
 |   3   | 2025-03-06  | Machine-Level Representation of Programs: Procedures | Danfeng Shan | 3.7 | datalab due, bomblab out |
