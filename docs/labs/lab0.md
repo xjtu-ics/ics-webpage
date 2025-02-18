@@ -7,10 +7,10 @@ Lab0的目的是帮助大家熟悉环境并掌握一些基础工具的使用；�
 
 本文内容总共包含以下几个部分：
 
-- ICSServer （必做）
+- ICS-Server （必做）
 - VSCode配置 （必做）
 !!! note
-    ICSServer需要在校园网环境下进行连接（包括但不限于XJTU-WLAN/XJTU-STU/宿舍组网等等），外网环境无法连接。
+    ICS-Server需要在校园网环境下进行连接（包括但不限于XJTU-WLAN/XJTU-STU/宿舍组网等等），外网环境无法连接。
 - 本地Linux环境构建方法介绍 （选做）
 - 实用工具学习与熟悉 （选做）
 
@@ -20,7 +20,7 @@ Lab0的目的是帮助大家熟悉环境并掌握一些基础工具的使用；�
 [ICS-Server 登录文档](../resources/ICS-Server.md)
 
 ## VSCode配置
-Visual Studio Code（简称 VS Code）是一款由微软开发且跨平台的免费源代码编辑器。我们将帮助大家初步安装与配置，并帮助大家使用VSCode连接ICSServer，后续可使用VSCode在ICSServer上进行远程开发。
+Visual Studio Code（简称 VS Code）是一款由微软开发且跨平台的免费源代码编辑器。我们将帮助大家初步安装与配置，并帮助大家使用VSCode连接ICS-Server，后续可使用VSCode在ICS-Server上进行远程开发。
 
 当然，我们也推荐大家采用自己习惯的工具进行开发。
 
