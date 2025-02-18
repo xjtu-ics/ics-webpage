@@ -34,7 +34,7 @@ Welcome to the XJTU-ICS course!
 This course offers a programmer’s perspective on how computer systems execute programs
 store data, and communicate with each other.
 
-A key focus of the course is on **developing your programming skills**.
+A key focus of the course is on **developing your system programming skills**.
 To achieve this, the course includes 6 hands-on lab assignments,
 which will help you strengthen your understanding of how systems operate at the code level.
 These lab assignments make up approximately 50% of your final grade,
