@@ -4,8 +4,8 @@
         "start": "2025-02-18T19:10:00",
         "end": "2025-02-18T21:00:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Overview",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -15,8 +15,8 @@
         "start": "2025-02-20T19:10:00",
         "end": "2025-02-20T21:00:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Representing and Manipulating Information",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -26,8 +26,8 @@
         "start": "2025-02-25T19:10:00",
         "end": "2025-02-25T21:00:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Machine-Level Representation of Programs: Basic",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -37,8 +37,8 @@
         "start": "2025-02-27T19:10:00",
         "end": "2025-02-27T21:00:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Machine-Level Representation of Programs: Control",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -48,8 +48,8 @@
         "start": "2025-03-04T19:10:00",
         "end": "2025-03-04T21:00:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Machine-Level Representation of Programs: Procedures",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -59,8 +59,8 @@
         "start": "2025-03-06T19:10:00",
         "end": "2025-03-06T21:00:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Machine-Level Representation of Programs: Procedures",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -70,8 +70,8 @@
         "start": "2025-03-11T19:10:00",
         "end": "2025-03-11T21:00:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Machine-Level Representation of Programs: Data",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -81,8 +81,8 @@
         "start": "2025-03-13T19:10:00",
         "end": "2025-03-13T21:00:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Machine-Level Representation of Programs: Advanced",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -92,8 +92,8 @@
         "start": "2025-03-18T19:10:00",
         "end": "2025-03-18T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Machine-Level Representation of Programs: Advanced",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -103,8 +103,8 @@
         "start": "2025-03-20T19:10:00",
         "end": "2025-03-20T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "The Memory Hierarchy",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -114,8 +114,8 @@
         "start": "2025-03-25T19:10:00",
         "end": "2025-03-25T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Cache Memories",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -125,8 +125,8 @@
         "start": "2025-03-27T19:10:00",
         "end": "2025-03-27T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Cache Memories",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -136,7 +136,7 @@
         "start": "2025-04-01T19:10:00",
         "end": "2025-04-01T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -147,7 +147,7 @@
         "start": "2025-04-03T19:10:00",
         "end": "2025-04-03T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -158,7 +158,7 @@
         "start": "2025-04-08T19:10:00",
         "end": "2025-04-08T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -169,7 +169,7 @@
         "start": "2025-04-10T19:10:00",
         "end": "2025-04-10T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -180,7 +180,7 @@
         "start": "2025-04-15T19:10:00",
         "end": "2025-04-15T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -191,7 +191,7 @@
         "start": "2025-04-17T19:10:00",
         "end": "2025-04-17T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -202,7 +202,7 @@
         "start": "2025-04-22T19:10:00",
         "end": "2025-04-22T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -213,7 +213,7 @@
         "start": "2025-04-24T19:10:00",
         "end": "2025-04-24T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -224,7 +224,7 @@
         "start": "2025-04-29T19:10:00",
         "end": "2025-04-29T21:00:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -235,7 +235,7 @@
         "start": "2025-05-06T19:40:00",
         "end": "2025-05-06T21:30:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -246,7 +246,7 @@
         "start": "2025-05-08T19:40:00",
         "end": "2025-05-08T21:30:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -257,7 +257,7 @@
         "start": "2025-05-13T19:40:00",
         "end": "2025-05-13T21:30:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -268,7 +268,7 @@
         "start": "2025-05-15T19:40:00",
         "end": "2025-05-15T21:30:00",
         "extendedProps": {
-            "teacher": "haoli",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -279,7 +279,7 @@
         "start": "2025-05-20T19:40:00",
         "end": "2025-05-20T21:30:00",
         "extendedProps": {
-            "teacher": "dfshan",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -290,7 +290,7 @@
         "start": "2025-05-22T19:40:00",
         "end": "2025-05-22T21:30:00",
         "extendedProps": {
-            "teacher": "dfshan",
+            "teacher": "Hao Li",
             "theme": "",
             "pptLink": "",
             "location": "主B-204"
@@ -301,8 +301,8 @@
         "start": "2025-05-27T19:40:00",
         "end": "2025-05-27T21:30:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Processor Architecture",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -312,8 +312,8 @@
         "start": "2025-05-29T19:40:00",
         "end": "2025-05-29T21:30:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Processor Architecture",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -323,8 +323,8 @@
         "start": "2025-06-03T19:40:00",
         "end": "2025-06-03T21:30:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Exam Review",
             "pptLink": "",
             "location": "主B-204"
         }
@@ -334,8 +334,8 @@
         "start": "2025-06-05T19:40:00",
         "end": "2025-06-05T21:30:00",
         "extendedProps": {
-            "teacher": "dfshan",
-            "theme": "",
+            "teacher": "Danfeng Shan",
+            "theme": "Exam Review",
             "pptLink": "",
             "location": "主B-204"
         }

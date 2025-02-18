@@ -51,7 +51,7 @@ Enjoy!
 - [Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2025/xjtuics)
 - QQ group: 1030663999
 - Office Hours
-    - Danfeng Shan: 21:30-22:00, Every Tuesday and Thursday
+    - Danfeng Shan: 21:30-22:30, Every Tuesday and Thursday
     - Hao Li: TBD
 
 ## Schedule
@@ -88,7 +88,7 @@ Enjoy!
 |   13  | 2025-05-15  | TBA |  Hao Li | | |
 |   14  | 2025-05-20  | TBA |  Hao Li | | |
 |   14  | 2025-05-22  | TBA |  Hao Li | | |
-|   15  | 2025-05-27  | TBA |  Hao Li | | |
-|   15  | 2025-05-29  | TBA |  Hao Li | | |
-|   16  | 2025-06-03  | Processor Architecture |  Danfeng Shan | 4.1-4.3 | |
-|   16  | 2025-06-05  | Processor Architecture |  Danfeng Shan | 4.4-4.6 | |
+|   15  | 2025-05-27  | Processor Architecture |  Danfeng Shan | 4.1-4.3 | |
+|   15  | 2025-05-29  | Processor Architecture |  Danfeng Shan | 4.4-4.6 | |
+|   16  | 2025-06-03  | Exam Review |  Danfeng Shan | | |
+|   16  | 2025-06-05  | Exam Review |  Danfeng Shan | | |
