@@ -48,7 +48,7 @@ Enjoy!
 
 ## Getting Help
 
-- [Discourse](https://forum.ics.xjtu-ants.net/)
+- [Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2025/xjtuics)
 - QQ group: 1030663999
 - Office Hours
     - Danfeng Shan: 21:30-22:00, Every Tuesday and Thursday
