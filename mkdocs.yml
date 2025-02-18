@@ -84,13 +84,13 @@ nav:
   - Overview: index.md
   - Calendar: calendar/index.md
   - Labs:
-    - Tutorial and Environmental Preparation: labs/lab0.md
-    # - Data Lab: labs/lab1.md
-    # - Bomb Lab: labs/lab2.md
-    # - Attack Lab: labs/lab3.md
-    # - Cache Lab: labs/lab4.md
-    # - Optimization Lab: labs/lab5.md
-    # - Linker Lab: labs/lab6.md
+    - "Lab 0: Tutorial and Environmental Preparation": labs/lab0.md
+    # - "Lab 1: Data Lab": labs/lab1.md
+    # - "Lab 2: Bomb Lab": labs/lab2.md
+    # - "Lab 3: Attack Lab": labs/lab3.md
+    # - "Lab 4: Cache Lab": labs/lab4.md
+    # - "Lab 5: Optimization Lab": labs/lab5.md
+    # - "Lab 6: Linker Lab": labs/lab6.md
   - Staff: staff/index.md
   - Policies: policies/index.md
   - Resources:
