@@ -92,7 +92,8 @@ def read_and_merge_json(source_folder, pic_extract_folder, target_json_path):
             sorted_json_data = sorted(all_json_data, key=lambda x: locale.strxfrm(x.get('name', '')))
             with open(target_json_path, 'w', encoding='utf-8') as target_file:
                 json.dump(sorted_json_data, target_file, ensure_ascii=False, indent=4)
-        except Exception:
+        except Exception as e:
+            print(e)
             pass
 
 
