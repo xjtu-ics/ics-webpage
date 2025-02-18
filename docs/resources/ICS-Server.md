@@ -11,7 +11,7 @@
 例如：你的学号是2183311128，那么你的服务器用户名就是：`2183311128-ics`，密码为：`2183311128`。
 
 !!! warning
-    为了防止信息泄露，首次登录输入初始密码后，服务器会强制登录用户修改密码。请同学们保管好自己修改后的密码，或者可自行尝试ssh密钥登录。
+    为了防止信息泄露，首次登录输入初始密码后，服务器会强制登录用户修改密码。请同学们保管好自己修改后的密码，或者可自行尝试ssh密钥登录。如果你因为任何原因（新选课或者密码被同学恶意篡改）无法登陆ics服务器，请立刻联系助教进行处理。
 
 
 ## 登录方式
@@ -98,3 +98,19 @@ known_hosts文件是SSH客户端中的一个配置文件。当首次与一个SSH
 </figure>
 
 只需要根据这个红框提示的目录，找到对应的known_hosts文件，将这个文件中的有2291的行全部删去即可。（更绝的可以直接删除这个known_hosts文件）
+
+下面给出ICS-Server的服务器公钥指纹（public key fingerprints），供大家参考：
+
+- `SHA256:4ON3oPpCRU0uZdIc6SWPDBCKCYOrpKgXqvE5aiyCCzE`(RSA)
+- `SHA256:/RIkpkRMvv3QGQPuVLwdBtQb39a+7WTxm6ffQxYGlNk`(DSA)
+- `SHA256:H/DX2QMavSC6rbwxAvtLOy5vZYOECbpPxfxDIOAhj14`(ECDSA)
+- `SHA256:TdWfFxmK+7Fc1Gwpkj1ZYhey676aTTwAstrX7QFDHsI`(ED25519)
+
+你也可以将下列服务器公钥直接添加到你的`~/.ssh/known_hosts`文档里：
+
+```text
+[x86.ics.xjtu-ants.net]:2291 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJILyuHQY2bJ+WivExEjByZ2aG5tLayZkw9AqwGH4w4r
+[x86.ics.xjtu-ants.net]:2291 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEBzKfIjDxQp0bKgBczbKq6Bk96CiCdGTAqbDnt/muT6GdLCy7Wh4k0JKwuRq8n65G/bhBSTOg+egZDwHTFG6q4=
+[x86.ics.xjtu-ants.net]:2291 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCrNsqug9P4eeW9ewfSylBG/FsYvtjaK6Q+sUjfhBv8MN7OJoMm9MY/kCIi8C8CF3qOtzOq3aJMrRwvPbpt79zq1NetQNp6sw0LhEYWAUPUvFb9fS0gZAicETUFHVQm2uipYTIyXwKhm/kLRb1MWL638cWpVKCpPvTvt0FiOiOu6XTa4HADFNblTW48Tn93XH1Z12BDJTUbseicp1oeIbi9zDMENLihZCmsGTwM05d2omSQ2henYndD1he1fXwKAebhrFdqkrMdd0iet6GQESOGb5PBxwxhYphIa7Ue9tWuDfIRH1PK25uSYn4a4E9x1l1khvXc/ag7nGcEGqtoWOHK5pLjtUVp0VVYVFCy+wcHWkdiHL9zcxXIljV7VuNWCX49DzosVLacs4xFTes1F47UqOZocqK+q2kNXE6PeKt/PuDHNPPB7RfA9WgE5u3+jYS5S6KUhy9TimpGjV3UEAQyZbGPWbepzvxLkzBcpuDFBsWbPtErV/kYMZQYUC5hgzk=
+```
+
