@@ -12,6 +12,7 @@
         "name": "杜金诺",
         "email": "djn18866691791@stu.xjtu.edu.cn",
         "office": "",
+        "office_hour": "每周日下午 (14:30-18:30)",
         "intro": "",
         "pic_url": "../assets/profile-ta/jndu.jpg"
     },
@@ -46,8 +47,8 @@
         "name": "李云广",
         "email": "yunguangli1@outlook.com",
         "office": "",
-        "intro": "",
         "office_hour": "每周二上午(8:00-10:00)",
+        "intro": "",
         "pic_url": "../assets/profile-ta/ygli.jpg"
     },
     {
