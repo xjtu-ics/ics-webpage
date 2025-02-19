@@ -35,7 +35,7 @@
 
     参考链接：
 
-    - putty: [PuTTY 新手使用教程（详细图文）](https://www.hostarr.com/putty-tutorial/)
+    - putty: [PuTTY 新手使用教程（详细图文）](https://www.putty.wang/putty-jc/)
     - xshell: [Xshell怎么用？详细的Xshell使用教程](https://cloud.tencent.com/developer/article/1822579)
     - tabby: [Tabby 使用指南：一个高度可配置的现代化终端模拟器](https://zhuanlan.zhihu.com/p/443550221)
     - windows terminal: [windows terminal 连接远程 ssh](https://www.jianshu.com/p/b7a105a67253)
