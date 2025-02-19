@@ -47,6 +47,8 @@ plugins:
   - search
   - tags
   - open-in-new-tab
+  - macros:
+      module_name: scripts/macros
 
 # Extensions
 markdown_extensions:

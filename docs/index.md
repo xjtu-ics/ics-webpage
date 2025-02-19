@@ -56,8 +56,8 @@ Enjoy!
 
 ## Schedule
 
-
-|  Week |     Date    | Lecture | Instructors | Reading | Labs |
+{{read_csv("docs/static/data/events.csv")}}
+<!-- |  Week |     Date    | Lecture | Instructors | Reading | Labs |
 | :---: | :---------: | :-----: | :---------: | :-----: | :--: |
 |   1   | 2025-02-18  | Overview ( [:material-presentation-play: Slides](assets/slides/01-overview-class-rules.pdf){.md-button} ) | Hao Li && Danfeng Shan  |   1     |             |
 |   1   | 2025-02-20  | Representing and Manipulating Information | Danfeng Shan | 2.1-2.3 | datalab out |
@@ -90,4 +90,4 @@ Enjoy!
 |   15  | 2025-05-27  | Processor Architecture |  Danfeng Shan | 4.1-4.3 | |
 |   15  | 2025-05-29  | Processor Architecture |  Danfeng Shan | 4.4-4.6 | |
 |   16  | 2025-06-03  | Exam Review |  Danfeng Shan | | |
-|   16  | 2025-06-05  | Exam Review |  Danfeng Shan | | |
+|   16  | 2025-06-05  | Exam Review |  Danfeng Shan | | | -->
