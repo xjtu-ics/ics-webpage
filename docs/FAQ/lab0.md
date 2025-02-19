@@ -4,12 +4,12 @@
 - A：若处于校园网环境，仍显示 TimeOut 请联系助教查看服务器状态。
 ## Q2：PowerShell 等终端 ssh 尝试连接显示Bad owner or permissions on xxx/.ssh/config问题。
 
-- A：请注意修改对应路径内的一些权限问题，参考资料 Bad owner or permissions on '.ssh/config' [SOLVED] - ShellHacks
+- A：请注意修改对应路径内的一些权限问题，参考资料 [Bad owner or permissions on '.ssh/config' [SOLVED] - ShellHacks](https://www.shellhacks.com/bad-owner-or-permissions-on-ssh-config-solved/)
 
 ## Q3：若 VSCode 尝试连接 ICSServer 也出现配置文件权限问题。
 
 - A：可使用 Q2 中类似方法修改对应文件路径权限，或尝试以管理员身份运行 VSCode
-- A：可以考虑采用默认第二个配置文件或者自定义配置文件重新按照 Visual Studio Code Remote SSH Setting | XJTU-ICS 中关于 VSCode 连接流程进行配置。
+- A：可以考虑采用默认第二个配置文件或者自定义配置文件重新按照 [Visual Studio Code Remote SSH Setting | XJTU-ICS](../resources/VScodeRemote-SSH.md) 中关于 VSCode 连接流程进行配置。
 <figure markdown="span">
   ![Image title](../assets/images/FAQ-lab0-1.jpeg){ width=auto }
 </figure>
