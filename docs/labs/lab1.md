@@ -33,7 +33,7 @@ Enjoy and Have fun! 😉
 
 如果你缺少这个目录，有三种解决方式：
 
-- 在课程网站上下载[datalab-sp25.tar](link)，然后通过命令`tar xvf datalab-sp25`解压
+- 在课程网站上下载[datalab-sp25.tar](../assets/files/datalab-sp25.tar)，然后通过命令`tar xvf datalab-sp25`解压
 - 进入本次实验的[公有仓库](https://github.com/xjtu-ics/datalab-sp25)，使用`git clone`克隆仓库到本地（推荐）
 - 寻找助教进行解决
 
@@ -54,7 +54,7 @@ Enjoy and Have fun! 😉
 
 自己本地开发的实验资源获取方式：
 
-- 下载文件[datalab-sp25.tar](link)，然后通过命令`tar xvf datalab-sp25.tar`进行解压
+- 下载文件[datalab-sp25.tar](../assets/files/datalab-sp25.tar)，然后通过命令`tar xvf datalab-sp25.tar`进行解压
 - 进入本次实验的[公有仓库](https://github.com/xjtu-ics/datalab-sp25)，使用`git clone`克隆仓库到本地（推荐）
 - 找同学/助教发给你
 
