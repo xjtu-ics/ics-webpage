@@ -10,14 +10,10 @@ def define_env(env):
         df = df[df['title'] == 'Lecture']
         df = df.drop(columns=['title', 'end', 'location'])
         df.rename(columns={'start': 'Date','theme': 'Lecture', 'extra': "Labs", "pptLink" : "Materials"}, inplace=True)
+        df['Materials'] = df['Materials'].apply(lambda str: f"[:material-presentation-play: Slides]({str}){{.md-button}}" if str != "" else "")
         df['Date'] = pd.to_datetime(df['Date']).dt.date
         markdown_table = df.to_markdown(index=False, tablefmt="github")
         
-        markdown_table = re.sub(
-                r"(assets/slides/[^)]+\.pdf)",
-                r"[:material-presentation-play: Slides](\1)",
-                markdown_table
-        )
         lines = markdown_table.split("\n")
         header = lines[0]
         separator = lines[1] 
