@@ -1,13 +1,13 @@
 title,Week,start,end,theme,Instructors,pptLink,location,Reading,extra
 Lecture,1,2025-02-18T19:10:00,2025-02-18T21:00:00,Overview,Hao Li && Danfeng Shan,assets/slides/01-overview-class-rules.pdf,主B-204,1,
-Lecture,1,2025-02-20T19:10:00,2025-02-20T21:00:00,Representing and Manipulating Information,Danfeng Shan,assets/slides/02-bits-ints.pdf,主B-204,2.1-2.3,datalab out
-Lecture,2,2025-02-25T19:10:00,2025-02-25T21:00:00,Machine-Level Representation of Programs: Basics,Danfeng Shan,,主B-204,3.1-3.5,
-Lecture,2,2025-02-27T19:10:00,2025-02-27T21:00:00,Machine-Level Representation of Programs: Control,Danfeng Shan,,主B-204,3.6,
-Lecture,3,2025-03-04T19:10:00,2025-03-04T21:00:00,Machine-Level Representation of Programs: Procedures,Danfeng Shan,,主B-204,3.7,
-Lecture,3,2025-03-06T19:10:00,2025-03-06T21:00:00,Machine-Level Representation of Programs: Procedures,Danfeng Shan,,主B-204,3.7,"datalab due, bomblab out"
-Lecture,4,2025-03-11T19:10:00,2025-03-11T21:00:00,Machine-Level Representation of Programs: Data,Danfeng Shan,,主B-204,3.8-3.9,
-Lecture,4,2025-03-13T19:10:00,2025-03-13T21:00:00,Machine-Level Representation of Programs: Advanced,Danfeng Shan,,主B-204,3.10,
-Lecture,5,2025-03-18T19:10:00,2025-03-18T21:00:00,Machine-Level Representation of Programs: Advanced,Danfeng Shan,,主B-204,3.10,attacklab out
+Lecture,1,2025-02-20T19:10:00,2025-02-20T21:00:00,"Bits, Bytes, & Integers",Danfeng Shan,assets/slides/02-bits-ints.pdf,主B-204,2.1-2.3,datalab out
+Lecture,2,2025-02-25T19:10:00,2025-02-25T21:00:00,Machine Prog: Basics,Danfeng Shan,,主B-204,3.1-3.5,
+Lecture,2,2025-02-27T19:10:00,2025-02-27T21:00:00,Machine Prog: Control,Danfeng Shan,,主B-204,3.6,
+Lecture,3,2025-03-04T19:10:00,2025-03-04T21:00:00,Machine Prog: Procedures,Danfeng Shan,,主B-204,3.7,
+Lecture,3,2025-03-06T19:10:00,2025-03-06T21:00:00,Machine Prog: Procedures,Danfeng Shan,,主B-204,3.7,"datalab due, bomblab out"
+Lecture,4,2025-03-11T19:10:00,2025-03-11T21:00:00,Machine Prog: Data,Danfeng Shan,,主B-204,3.8-3.9,
+Lecture,4,2025-03-13T19:10:00,2025-03-13T21:00:00,Machine Prog: Advanced,Danfeng Shan,,主B-204,3.10,
+Lecture,5,2025-03-18T19:10:00,2025-03-18T21:00:00,Machine Prog: Advanced,Danfeng Shan,,主B-204,3.10,attacklab out
 Lecture,5,2025-03-20T19:10:00,2025-03-20T21:00:00,The Memory Hierarchy,Danfeng Shan,,主B-204,6.1-6.3,bomblab due
 Lecture,6,2025-03-25T19:10:00,2025-03-25T21:00:00,Cache Memories,Danfeng Shan,,主B-204,6.4-6.7,
 Lecture,6,2025-03-27T19:10:00,2025-03-27T21:00:00,Cache Memories,Danfeng Shan,,主B-204,6.4-6.7,"attacklab due, cachelab out"
