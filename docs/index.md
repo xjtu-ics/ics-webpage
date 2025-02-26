@@ -46,6 +46,12 @@ Enjoy!
 
 **Textbook**: Randal E. Bryant and David R. O'Hallaron, [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu/), Third Edition, Pearson, 2016
 
+## Announcements
+!!! info "停课通知"
+
+    本周四（2月27日）晚第10节课停课，第9节课照常进行！
+
+
 ## Getting Help
 
 - [Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2025/xjtuics)
